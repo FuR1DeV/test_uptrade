@@ -6,20 +6,11 @@ Django приложение реализовывающее древовидно�
 где 'main_menu' - slug нужного меню.
 # Запуск проекта
 ```
-git clone git@github.com:clownvkkaschenko/django-tree-menu.git
+https://github.com/FuR1DeV/test_uptrade
 python -m venv venv
 source venv/Scripts/activate
-```
-Перейдите в папку с приложением /app/ установите зависимости и запустите проект
-```
 pip install -r requirements.txt
-```
-Выполните миграции
-```
 python manage.py makemigrations
 python manage.py migrate
-```
-После этого проект будет готов к работе по команде
-```
+python manage.py createsuperuser
 python manage.py runserver
-```
